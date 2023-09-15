@@ -1,0 +1,12 @@
+name: env_streamlit
+channels:
+  - terradue
+  - conda-forge
+dependencies:
+  - streamlit
+  - leafmap
+  - loguru
+  - shapely
+  - pip
+  - pip:
+    - geopandas
