@@ -1,5 +1,5 @@
 {
-	"name": "streamlit-leafmap",
+	"name": "streamlit-app",
 
 	"build": {
 		"context": "..",
