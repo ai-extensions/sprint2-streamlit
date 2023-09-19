@@ -17,9 +17,9 @@
 ## Build local container
 
 ```
-docker build -t s2-tiling .
+docker build -t streamlit-hw .
 ```
 
 ```
-docker run -p 8888:8888 --rm -it s2-tiling 
+docker run -p 8888:8888 --rm -it streamlit-hw 
 ``` 
