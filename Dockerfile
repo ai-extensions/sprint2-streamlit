@@ -16,7 +16,6 @@ USER jovyan
 COPY --chown=jovyan:jovyan entrypoint.sh /home/jovyan
 RUN chmod +x /home/jovyan/entrypoint.sh
 COPY --chown=jovyan:jovyan app.py /home/jovyan
-COPY --chown=jovyan:jovyan cantons-avec-outre-mer.geojson /home/jovyan
 
 EXPOSE 8888
 
