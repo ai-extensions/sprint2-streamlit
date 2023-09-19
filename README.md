@@ -1,6 +1,6 @@
 # Simple Hello World Streamlit app
 
-## Execution steps using Visual Studio Code
+## Execution steps using Visual Studio Code and Dev Containers
 
 * Start Docker Desktop
 * Start VS Code 
@@ -14,12 +14,16 @@
     ```
 * you can open the Streamlit app by clicking the "Open in Browser" button in the pop-up window.
 
-## Build local container
+## Execution steps with local container
 
+Build local container
 ```
 docker build -t streamlit-hw .
 ```
 
+Run container
 ```
 docker run -p 8888:8888 --rm -it streamlit-hw 
 ``` 
+
+Open the app on a web browser on local port `http://localhost:8888/`
